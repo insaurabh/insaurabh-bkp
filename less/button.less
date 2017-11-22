@@ -1,0 +1,36 @@
+.active-btn(@btn-main, @btn-back)
+{
+  color: @btn-main;
+  background-color: mix(@btn-back, @btn-main, 50%);
+  border-color: @btn-main;
+}
+
+.btn-custom(@color, @back)
+{
+  color: @color;
+  background: @back;
+  border-color: @color;
+  transition-duration: 0.4s;
+
+  &:hover
+  {
+    background: mix(@color, @back, 20%);
+    border-color: @color;
+    color: @color;
+  }
+
+  &:focus, &:active, &.active, &.focus
+  {
+    .active-btn(@color, @back);
+  }
+
+  &:active, &.active
+  {
+    .active-btn(@color, @back);
+
+    &:focus, &.focus
+    {
+      .active-btn(@color, @back);
+    }
+  }
+}
