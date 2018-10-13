@@ -8,6 +8,11 @@ img:  raphaeljs.png
 
 
 
+<div id="canvas_container"></div>
+<div class="tooltip">
+    <span class="position">x,y</span>
+</div>
+
 
 
 
