@@ -13,7 +13,7 @@ img:  raphaeljs.png
     <span class="position">x,y</span>
 </div>
 
-
+<div class="clearfix"></div>
 
 
 
