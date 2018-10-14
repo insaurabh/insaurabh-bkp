@@ -89,9 +89,19 @@
 
 {% if page.url == "/exploring-raphael-js/" %}
   <script type="text/javascript" src='{{ "/assets/js/main.js" | prepend: site.baseurl }}'></script>
+
   <script type="text/javascript" src='{{ "/assets/js/raphael.js" | prepend: site.baseurl }}'></script>
 
 {% endif %}
+
+
+{% if page.url == "/draw-lines-raphael-js/" %}
+  <script type="text/javascript" src='{{ "/assets/js/customDrawLines.js" | prepend: site.baseurl }}'></script>
+
+  <script type="text/javascript" src='{{ "/assets/js/raphael.js" | prepend: site.baseurl }}'></script>
+
+{% endif %}
+
 
 
 

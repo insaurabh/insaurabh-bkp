@@ -21,6 +21,24 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+# Create Arrays
+ First we’ll create a new array called Topic, each item is indented with two spaces then starts with a hyphen.
+
+{% highlight html %}
+	topics:
+	  - jekyll
+	  - raphael
+	  - pusher
+{% endhighlight %}
+
+
+
+{% highlight ruby %}
+{% for topic in page.topics %}
+<li>{{ topic }}</li>
+{% endfor %}
+{% endhighlight %}
+
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 Please share your question below.

@@ -19,8 +19,7 @@ img:  raphaeljs.png
 
 
 
-
-
+Lets Draw some lines [an example](/draw-lines-raphael-js "Draw lines in Raphael")
 
 
 
