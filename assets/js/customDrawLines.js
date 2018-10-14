@@ -1,6 +1,6 @@
 window.onload = function() {
 let canvas_container = document.getElementById('canvas_container'),
-	paper = new Raphael(canvas_container, 500, 500),
+	paper = new Raphael(canvas_container, 3000, 300),
 	colour = '#EF1F1F',
 	mousedown = false,
 	width = 1,

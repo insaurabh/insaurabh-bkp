@@ -1363,7 +1363,13 @@ a.newer-posts:hover {
   opacity: .8;
 }
 
-#canvas_container {
+.alert {
+  padding: 3px;
+  margin-bottom: 5px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+#canvas_container, #js-canvas-container {
   width: 500px;
   border: 1px solid #aaa;
   margin: 0 auto;
