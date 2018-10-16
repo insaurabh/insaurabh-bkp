@@ -3,7 +3,8 @@ layout: post
 title: "Learning Jekyll!"
 date: 2018-10-13 13:32:20 +0300
 description: Jekyll is simple, easy and fast.
-img:  # Add image post (optional
+img:  # Add image post (optional )
+sticky: true
 ---
 Add all the posts in  `_posts` directory. 
 + Add new posts

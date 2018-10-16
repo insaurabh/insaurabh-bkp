@@ -32,7 +32,7 @@ plugins:
   - jekyll-paginate
   - jemoji
 
-paginate: 3
+paginate: 4
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
@@ -41,8 +41,8 @@ sort_field: "stickiness"
 
 stickyposts:
   enabled: true   # Enable StickyPosts; default: true
-  debug: true       # Show additional info; default: false
+  debug: false       # Show additional info; default: false
   # sort: "date"      # Optional sort field; default: "date", use "none" to avoid sorting
-  reverse: true     # Ascending order, default: false
-  retain: true      # Also show sticky posts in their original positions; default: false
-  reverse_sticky: true    # Reverse the order of the sticky posts, e.g. oldest first; default: false
+  reverse: false     # Ascending order, default: false
+  retain: false      # Also show sticky posts in their original positions; default: false
+  reverse_sticky: false    # Reverse the order of the sticky posts, e.g. oldest first; default: false
