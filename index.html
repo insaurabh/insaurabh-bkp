@@ -1,6 +1,11 @@
 ---
 layout: main
 ---
+
+<div id="search-searchbar"></div>
+
+<div class="post-list" id="search-hits"></div>
+
 {% for post in paginator.posts %}
 <article class="post">
   {% if post.img %}
@@ -15,5 +20,11 @@ layout: main
   </div>
 </article>
 {% endfor %}
+
+
+
+<!-- <div id="search-hits"></div> -->
+
+{% include algolia.html %}  
 
 {% include pagination.html %}

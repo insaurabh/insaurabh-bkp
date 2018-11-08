@@ -46,3 +46,9 @@ stickyposts:
   reverse: false     # Ascending order, default: false
   retain: false      # Also show sticky posts in their original positions; default: false
   reverse_sticky: false    # Reverse the order of the sticky posts, e.g. oldest first; default: false
+
+algolia:
+  application_id: 'FJ7DUWKA94'
+  index_name: 'dev_local'
+  search_only_api_key: '8271fb1869c993ad2640875a162bda0d'
+
