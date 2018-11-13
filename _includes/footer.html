@@ -4,6 +4,11 @@
   
   <script type="text/javascript" src='{{ "/assets/js/app.js" | prepend: site.baseurl }}'></script>
 
+  {% if page.url == "/basics-of-canvas-js/" %}
+   <script type="text/javascript" src='{{ "/assets/js/canvas-basics-min.js" | prepend: site.baseurl }}'></script>
+  {% endif %}
+  
     {% include analytics.html %}
+    
 </body>
 </html>
