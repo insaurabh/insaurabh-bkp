@@ -7,7 +7,11 @@
   {% if page.url == "/basics-of-canvas-js/" %}
    <script type="text/javascript" src='{{ "/assets/js/canvas-basics-min.js" | prepend: site.baseurl }}'></script>
   {% endif %}
-  
+
+  {% if page.url == "/motion-js/" %}
+   <script type="text/javascript" src='{{ "/assets/js/js-motion.js" | prepend: site.baseurl }}'></script>
+  {% endif %}
+
     {% include analytics.html %}
     
 </body>
