@@ -15,7 +15,7 @@ sticky: true
 	<ul>
 		<li>Closing the tab the video is on will close the player</li>
 		<li>You can’t have more than one PIP on screen at the same time</li>
-		<li>If autoplay is enabled the next video will play in PIP automatica</li>
+		<li>If auto-play is enabled the next video will play in PIP by default</li>
 	</ul>
 </div>
 
