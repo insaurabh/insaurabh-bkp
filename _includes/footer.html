@@ -12,6 +12,12 @@
    <script type="text/javascript" src='{{ "/assets/js/js-motion.js" | prepend: site.baseurl }}'></script>
   {% endif %}
 
+  {% if page.url == "/motion-js/" %}
+   <script type="text/javascript" src='{{ "/assets/js/detect-color-motion-js" | prepend: site.baseurl }}'></script>
+  {% endif %}
+
+  
+
     {% include analytics.html %}
     
 </body>

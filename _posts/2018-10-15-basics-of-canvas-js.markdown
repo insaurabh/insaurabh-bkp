@@ -16,14 +16,11 @@ description: Draw on canvas ,use of getImageData and putImageData
 		Move your mouse over canvas to create the downloadable png img
 
 <div class="wrapper">
-
 	<div class="main-canvas">
-
 			<canvas id="canvas"  width="500" height="500" style="float:left;"></canvas>
 			<span>Preview</span>
 			<canvas id="printHere" style="float:left"></canvas>
 	</div>
-	
 	<div class="canvas-output">
 		<img src="" id="newImg">
 		<div id="rgba"></div>

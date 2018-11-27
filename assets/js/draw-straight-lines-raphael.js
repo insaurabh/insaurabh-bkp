@@ -46,15 +46,13 @@ canvas_container.onmousedown = (e) => {
 
 
 function drawCircle(paper,x,y,r){
-						   			// x,y,r	
-var circleLeft = paper
+	var circleLeft = paper
 		    	.circle(x,y,r)
 		    	.attr({
 		    		fill: 'green', 
 		    		stroke: '#000', 
 		    		"stroke-width": 3
 		    	});
-
 }
 
 } // @end window.onload 
