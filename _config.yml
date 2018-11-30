@@ -54,3 +54,4 @@ algolia:
   application_id: 'FJ7DUWKA94'
   index_name: 'dev_local'
   search_only_api_key: '8271fb1869c993ad2640875a162bda0d'
+  
