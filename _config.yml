@@ -55,3 +55,5 @@ algolia:
   index_name: 'dev_local'
   search_only_api_key: '8271fb1869c993ad2640875a162bda0d'
   
+ 
+  
