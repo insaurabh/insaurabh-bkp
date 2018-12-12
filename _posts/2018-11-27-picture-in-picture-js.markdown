@@ -8,7 +8,12 @@ sticky: true
 
 
 <div>Simple Video player </div>
-<video id="videopip" src="{{site.baseurl}}/assets/video/picture-in-picture-pip.mkv"  width="400" controls></video>
+<video  id="videopip" width="320" height="240" controls>
+  <source src="{{site.baseurl}}/assets/video/picture-in-picture-pip.mkv" type="video/mkv">
+  <source src="{{site.baseurl}}/assets/video/picture_in_picture_pip.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
+
 <button id="togglePipButton">Slide me Left</button>
 
 <div>
